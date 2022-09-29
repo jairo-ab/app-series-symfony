@@ -1,0 +1,14 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Nova Série{% endblock %}
+
+{% block body %}
+    <form method="post" accept-charset="UTF-8">
+        <div>
+            <label class="form-label" for="name">Nome da série:</label>
+            <input class="form-control" type="text" name="name" id="name" placeholder="Informe o nome da série">
+        </div>
+    
+        <button class="btn btn-success mt-3">Adicionar</button>
+    </form>
+{% endblock %}
